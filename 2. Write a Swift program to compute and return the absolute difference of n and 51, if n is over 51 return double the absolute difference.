@@ -1,0 +1,16 @@
+func absoluteDiff (n: Int, a: Int = 51) -> Int {
+  
+ if n > a {
+   print("case1")
+   return n - a 
+ }
+ if n < a {
+   print("case2")
+   return a-n
+ }
+ else {
+   print ("n is equal to 51")
+   return 0
+ }
+}
+print(absoluteDiff(n:300))
