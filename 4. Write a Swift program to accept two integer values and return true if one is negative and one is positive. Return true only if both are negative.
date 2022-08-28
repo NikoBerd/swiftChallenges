@@ -1,0 +1,18 @@
+func checkNum (a: Int, b: Int) -> Bool { 
+ if a > 0 && b < 0 {
+   return true
+ }
+ else if a < 9 && b > 0{
+   return true
+ }
+ else if a < 0 && b < 0 {
+   return true
+ }
+   else{
+     return false
+   }
+}
+print(checkNum(a:2,b:-5))
+print(checkNum(a:-6,b:12))
+print(checkNum(a:-85,b:-4))
+print(checkNum(a:10,b:-19))
