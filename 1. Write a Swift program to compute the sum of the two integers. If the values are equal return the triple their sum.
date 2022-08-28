@@ -1,0 +1,10 @@
+func double_sum(a: Int, b: Int) -> Int {
+ if a == b {
+   return (a+b)*2
+ }
+ else{
+   return a + b
+ }
+}
+print(double_sum(a: 9, b: 5))
+print(double_sum(a: 4, b: 8))
