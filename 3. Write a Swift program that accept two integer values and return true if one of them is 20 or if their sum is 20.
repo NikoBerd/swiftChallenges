@@ -1,0 +1,11 @@
+func twoInteger (a: Int, b: Int) -> Bool {
+ if a + b == 20 || a == 20 || b == 20
+   {
+       return true
+   }
+   else
+   {
+       return false
+   }
+}
+print(twoInteger(a:20,b:10))
