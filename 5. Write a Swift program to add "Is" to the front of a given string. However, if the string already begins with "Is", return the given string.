@@ -1,0 +1,12 @@
+func stringAdd (sentence: String) -> String {
+  if sentence.hasPrefix("Is") == true
+   {
+       return sentence
+   } 
+ else 
+ {
+   return "Is \(sentence)"
+ }
+}
+print(stringAdd(sentence: "Is Swift"))
+print(stringAdd(sentence: "Swift"))
