@@ -1,0 +1,11 @@
+// Check if string is palindrome
+
+func palindrome(myString: String) -> Bool{
+  let reversedString = String(myString.reversed())
+  if myString == reversedString {
+    return true
+  }else{
+    return false
+  }
+}
+print(palindrome(myString:"noon"))
