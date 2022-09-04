@@ -1,3 +1,5 @@
+// 3. Write a Swift program that accept two integer values and return true if one of them is 20 or if their sum is 20.
+
 func twoInteger (a: Int, b: Int) -> Bool {
  if a + b == 20 || a == 20 || b == 20
    {
