@@ -1,3 +1,5 @@
+// 4. Write a Swift program to add "Is" to the front of a given string. However, if the string already begins with "Is", return the given string.
+
 func stringAdd (sentence: String) -> String {
   if sentence.hasPrefix("Is") == true
    {
