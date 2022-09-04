@@ -1,0 +1,19 @@
+// Write a function that will accept a String as it's only parameter. It should return true if the String contains a unique symbol.
+
+func sortString(input: String) -> Bool {
+
+  var checkedSymbol = [Character]()
+
+  for symbol in input {
+    if checkedSymbol.contains(symbol) {
+      return false
+    }
+    checkedSymbol.append(symbol)
+  }
+
+  return true
+}
+// returns true
+print(sortString(input:"🙂"))
+// returns false
+print(sortString(input:"Hello, world!"))
