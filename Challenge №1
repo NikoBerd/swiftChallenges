@@ -1,18 +1,12 @@
 // 1. Write a Swift program to compute and return the absolute difference of n and 51, if n is over 51 return double the absolute difference.
 
-func absoluteDiff (n: Int, a: Int = 51) -> Int {
+func absoluteDiff (n: Int) -> Int {
   
- if n > a {
-   print("case1")
-   return n - a 
- }
- if n < a {
-   print("case2")
-   return a-n
- }
- else {
-   print ("n is equal to 51")
-   return 0
- }
+ if n > 51 
+     {
+        return (n - 51) * 2
+     }  else {
+        return 51 - n
+     }
 }
 print(absoluteDiff(n:300))
